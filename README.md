@@ -64,7 +64,7 @@ Contributions are what make the open source community an amazing place to learn,
  You are not allowed to use or copy the project code for any material gains or improper use.
 
 ## Licence
-Distributed under the GNU GPLv3 License. See LICENSE for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/muslimdevscommunity/VisualQuran/blob/master/LICENSE) for more information.
 
 ## Contact
 Our [Discord](https://discord.com/invite/HWs7pu6) channel
