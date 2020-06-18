@@ -50,7 +50,7 @@
   git push -u origin branchName
   ```
 
-- Navigate to the  ["Visual Quran project repository"](https://github.com/muslimdevscommunity/VisualQuran) on GitHub. Click on the "Pull Request" button in the project header. Enter a title and description of your pull request, and click on the green "Send pull request" button.
+- Navigate to the  ["VisualQuran project repository"](https://github.com/muslimdevscommunity/VisualQuran) on GitHub. Click on the "Pull Request" button in the project header. Enter a title and description of your pull request, and click on the green "Send pull request" button.
 
 - Your code will be reviewed. You can also continue to push to your branch in light of discussion and feedback about your commits.
 
