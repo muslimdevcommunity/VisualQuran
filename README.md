@@ -10,6 +10,10 @@
 ## Set-Up
 
 ## Todo
+- [ ] Finish README
+- [ ] Clean up code
+- [ ] Separate code into smaller components
+- [ ] Add typescript support
 
 ## How to contribute
 
