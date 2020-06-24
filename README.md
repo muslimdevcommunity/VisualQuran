@@ -1,19 +1,21 @@
 # VisualQuran
- Qur'an recitation with some visuals
- 
- 
+
+Qur'an recitation with some visuals
+
 ## About the project
- 
- 
+
+[Demo](http://youtube.com/watch?v=Swas7Y7VeIg)
+
 ## Table of contents
 
 ## Set-Up
 
 ## Todo
+
 - [ ] Finish README
-- [ ] Clean up code
+- [x] Clean up code
 - [ ] Separate code into smaller components
-- [ ] Add typescript support
+- [x] Add typescript support
 
 ## How to contribute
 
@@ -50,7 +52,7 @@
   git push -u origin branchName
   ```
 
-- Navigate to the  ["VisualQuran project repository"](https://github.com/muslimdevscommunity/VisualQuran) on GitHub. Click on the "Pull Request" button in the project header. Enter a title and description of your pull request, and click on the green "Send pull request" button.
+- Navigate to the ["VisualQuran project repository"](https://github.com/muslimdevscommunity/VisualQuran) on GitHub. Click on the "Pull Request" button in the project header. Enter a title and description of your pull request, and click on the green "Send pull request" button.
 
 - Your code will be reviewed. You can also continue to push to your branch in light of discussion and feedback about your commits.
 
@@ -59,12 +61,15 @@ Contributions are what make the open source community an amazing place to learn,
 <!-- IMPORTANT NOTE -->
 
 ## Important note
- This project is for the sake of Allah Subhana Wa Tala, and our team has good intentions while working on this project. When using our project code or contributing to the project, you agree to abide by the Quran and the Sunnah.
 
- You are not allowed to use or copy the project code for any material gains or improper use.
+This project is for the sake of Allah Subhana Wa Tala, and our team has good intentions while working on this project. When using our project code or contributing to the project, you agree to abide by the Quran and the Sunnah.
+
+You are not allowed to use or copy the project code for any material gains or improper use.
 
 ## Licence
-Distributed under the GNU GPLv3 License. See LICENSE for more information.
+
+Distributed under the MIT License. See [LICENSE](https://github.com/muslimdevscommunity/VisualQuran/blob/master/LICENSE) for more information.
 
 ## Contact
+
 Our [Discord](https://discord.com/invite/HWs7pu6) channel

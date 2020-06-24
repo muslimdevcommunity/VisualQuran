@@ -6,6 +6,11 @@
     "@material-ui/core": "^4.9.0",
     "@material-ui/icons": "^4.5.1",
     "@material-ui/lab": "^4.0.0-alpha.40",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-html-parser": "^2.0.1",
     "axios": "^0.19.1",
     "express": "^4.17.1",
     "material-ui": "^0.20.2",
@@ -13,12 +18,25 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-html-parser": "^2.0.2",
-    "react-scripts": "1.1.5"
+    "react-scripts": "^3.4.1",
+    "typescript": "^3.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
