@@ -13,9 +13,9 @@ Qur'an recitation with some visuals
 ## Todo
 
 - [ ] Finish README
-- [ ] Clean up code
+- [x] Clean up code
 - [ ] Separate code into smaller components
-- [ ] Add typescript support
+- [x] Add typescript support
 
 ## How to contribute
 
