@@ -4,8 +4,7 @@ Qur'an recitation with some visuals
 
 ## About the project
 
-[Youtube link]
-URL=http://youtube.com/watch?v=Swas7Y7VeIg
+[Demo](http://youtube.com/watch?v=Swas7Y7VeIg)
 
 ## Table of contents
 
