@@ -14,7 +14,7 @@ const useQuranApi = (props: any) => {
           settings.currentTranslationId
         }&language=en&text_type=words&page=${changedChapter ? 1 : currentPage}`
       )
-      .then((response) => {
+      .then((response: any) => {
         setData({
           apiData: response.data,
           currentVerseCount: 0,

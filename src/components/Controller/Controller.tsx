@@ -1,4 +1,5 @@
 import React from "react";
+
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -8,6 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import PauseIcon from "@material-ui/icons/Pause";
 import PlayArrowIcon from "@material-ui/icons/PlayArrow";
 import Grid from "@material-ui/core/Grid";
+
 import Modal from "../UI/Modal/Modal";
 import Gallery from "../Gallery/Gallery";
 import Dialog from "../UI/Dialog/Dialog";
@@ -65,6 +67,17 @@ interface ControllerProps {
 export default function MediaControlCard(props: any) {
   const classes = useStyles();
 
+  const {
+    onChangeBackground,
+    onChangeSettings,
+    onPlay,
+    isPlaying,
+    current,
+    chapters,
+    recitations,
+    translations
+  } = props;
+
   return (
     <Card className={classes.card}>
       <div className={classes.details}>
@@ -76,9 +89,9 @@ export default function MediaControlCard(props: any) {
                   Chapter
                 </Typography>
                 <Select
-                  defaultValue={props.currentSettings.currentChapterId}
-                  list={props.chapters}
-                  changed={props.settings}
+                  defaultValue={current.chapterId}
+                  list={chapters}
+                  changed={onChangeSettings}
                   type={SelectTypes.CHAPTER}
                 ></Select>
               </Grid>
@@ -88,10 +101,7 @@ export default function MediaControlCard(props: any) {
                 </Typography>
                 <Dialog title='Reciters' name={"Select A Reciter"}>
                   {" "}
-                  <Recitations
-                    list={props.recitations}
-                    changed={props.settings}
-                  />
+                  <Recitations list={recitations} changed={onChangeSettings} />
                 </Dialog>
               </Grid>
               <Grid item>
@@ -99,9 +109,9 @@ export default function MediaControlCard(props: any) {
                   Translations
                 </Typography>
                 <Select
-                  defaultValue={props.currentSettings.currentTranslationId}
-                  list={props.translations}
-                  changed={props.settings}
+                  defaultValue={current.translationId}
+                  list={translations}
+                  changed={onChangeSettings}
                   type={SelectTypes.TRANSLATION}
                 ></Select>
               </Grid>
@@ -119,11 +129,11 @@ export default function MediaControlCard(props: any) {
           </CardContent>
 
           <div className={classes.controls}>
-            <IconButton onClick={props.onPlay} aria-label='play/pause'>
-              {props.currPlay ? (
-                <PlayArrowIcon className={classes.playIcon} />
-              ) : (
+            <IconButton onClick={onPlay} aria-label='play/pause'>
+              {isPlaying ? (
                 <PauseIcon className={classes.playIcon} />
+              ) : (
+                <PlayArrowIcon className={classes.playIcon} />
               )}
             </IconButton>
           </div>
@@ -135,7 +145,7 @@ export default function MediaControlCard(props: any) {
         title='Surah Kahf'
       >
         <Modal>
-          <Gallery changeBackground={props.changeBackground} />
+          <Gallery onChangeBackground={onChangeBackground} />
         </Modal>
       </CardMedia>
     </Card>
